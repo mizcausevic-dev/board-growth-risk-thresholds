@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-06-01T09:49:57.551Z",
+  "summary": {
+    "items": 6,
+    "breaches": 3,
+    "interventions": 2,
+    "averageBoardConfidence": 64.2,
+    "valueAtStakeMillions": 140,
+    "leadingMessage": "Multiple growth lanes are below threshold and need intervention before leadership widens the story."
+  },
+  "items": [
+    {
+      "id": "ai-governance-thresholds",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "ADVANCE",
+      "thresholdTheme": "Expand only while policy coverage, evaluation gates, and escalation ownership remain inside agreed board thresholds.",
+      "boardQuestion": "Which flagship lane can still scale without widening governance risk?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The AI lane is already producing scorecards, policy packets, and operating proofs, so expansion can continue if control coverage stays intact.",
+      "failureTrigger": "Critical agent flows ship without evaluation or policy-bound approval steps.",
+      "downsideTrigger": "Prompt or procurement exceptions grow faster than governance staffing can absorb.",
+      "interventionOwner": "AI governance program lead",
+      "requiredEvidence": [
+        "policy bundle coverage",
+        "agent eval history",
+        "exception queue aging"
+      ],
+      "relatedSurfaces": [
+        "agents.kineticgain.com",
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com"
+      ],
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "dependencyCoverageScore": 88,
+      "operatingDisciplineScore": 84,
+      "downsideContainmentScore": 79,
+      "cashExposureScore": 73,
+      "boardConfidenceScore": 86,
+      "valueAtStakeMillions": 29,
+      "headline": "AI can keep advancing while governance thresholds remain visible and staffed.",
+      "narrative": "This lane is not blocked by ambition; it is gated by whether the control plane can continue absorbing more agent activity without widening exception drag.",
+      "nextMove": "Advance the next agent tranche only after re-confirming approval coverage and eval ownership.",
+      "dependencyAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Dependency coverage remains inside threshold for the current growth posture."
+      },
+      "operatingAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Operating discipline supports the current growth motion without forcing a pause."
+      },
+      "downsideAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Downside containment remains credible for the current board story."
+      },
+      "cashAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Cash exposure remains inside the current risk tolerance."
+      },
+      "confidenceAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Board confidence is strong enough to support the current lane narrative."
+      },
+      "compositeRiskScore": 18
+    },
+    {
+      "id": "identity-scale-thresholds",
+      "lane": "Identity and access governance",
+      "track": "IDENTITY",
+      "action": "HOLD",
+      "thresholdTheme": "Hold identity expansion until remediation debt, stale review evidence, and ownership gaps move back inside threshold.",
+      "boardQuestion": "Which trust lane matters strategically but should not widen until hygiene recovers?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity surfaces exist and are useful, but the next scope increase would outpace evidence freshness and role-drift cleanup.",
+      "failureTrigger": "Privileged review exceptions age beyond the defined committee tolerance.",
+      "downsideTrigger": "More business units join the program before reviewer coverage stabilizes.",
+      "interventionOwner": "Identity governance director",
+      "requiredEvidence": [
+        "review closure aging",
+        "privileged access attestations",
+        "exception backlog trend"
+      ],
+      "relatedSurfaces": [
+        "certs.kineticgain.com",
+        "guest.kineticgain.com",
+        "protect.kineticgain.com"
+      ],
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ],
+      "dependencyCoverageScore": 63,
+      "operatingDisciplineScore": 58,
+      "downsideContainmentScore": 55,
+      "cashExposureScore": 61,
+      "boardConfidenceScore": 57,
+      "valueAtStakeMillions": 18,
+      "headline": "Identity should hold at the current edge until remediation discipline improves.",
+      "narrative": "Leadership can still present the identity story confidently, but not if the next scale step outruns review closure and exception ownership.",
+      "nextMove": "Hold expansion and clear reviewer drift before widening policy scope.",
+      "dependencyAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Dependency coverage is drifting toward threshold pressure and needs tighter board guardrails."
+      },
+      "operatingAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Operating discipline is below threshold and should block the next growth expansion."
+      },
+      "downsideAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Downside containment is below threshold and the board should intervene before scale widens exposure."
+      },
+      "cashAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Cash exposure is rising toward a board-level watch threshold."
+      },
+      "confidenceAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Board confidence is too weak to support the current growth claim."
+      },
+      "compositeRiskScore": 41.2
+    },
+    {
+      "id": "revenue-systems-thresholds",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "INTERVENE",
+      "thresholdTheme": "Intervene when reporting dependence grows faster than attribution trust and release integrity.",
+      "boardQuestion": "Which growth lane is most likely to overstate readiness if threshold guardrails are ignored?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "Reporting, experimentation, and attribution layers are live, but confidence drops when delivery pressure outpaces data-quality fixes.",
+      "failureTrigger": "Board reporting uses metrics sourced from unresolved attribution or refresh incidents.",
+      "downsideTrigger": "Teams fund more experiments before the reporting base is trusted.",
+      "interventionOwner": "Revenue systems lead",
+      "requiredEvidence": [
+        "refresh reliability trend",
+        "attribution variance log",
+        "experiment rollback evidence"
+      ],
+      "relatedSurfaces": [
+        "yield.kineticgain.com",
+        "powerbi.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ],
+      "dependencyCoverageScore": 59,
+      "operatingDisciplineScore": 62,
+      "downsideContainmentScore": 49,
+      "cashExposureScore": 54,
+      "boardConfidenceScore": 51,
+      "valueAtStakeMillions": 24,
+      "headline": "Revenue systems need intervention thresholds, not a broader growth claim.",
+      "narrative": "This lane can still support the board, but only if attribution drift and refresh failures trigger a visible pause before another big growth promise gets made.",
+      "nextMove": "Intervene on reporting trust and refresh reliability before approving the next experiment-heavy budget.",
+      "dependencyAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Dependency coverage is below threshold and should trigger immediate board-visible intervention."
+      },
+      "operatingAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Operating discipline is under pressure and could undermine the next growth claim."
+      },
+      "downsideAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Downside containment is below threshold and the board should intervene before scale widens exposure."
+      },
+      "cashAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Cash exposure is below the accepted threshold and should trigger a capital conversation."
+      },
+      "confidenceAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Board confidence is too weak to support the current growth claim."
+      },
+      "compositeRiskScore": 45
+    },
+    {
+      "id": "fintech-thresholds",
+      "lane": "FinTech diligence and transaction controls",
+      "track": "FINTECH",
+      "action": "REALLOCATE",
+      "thresholdTheme": "Reallocate leadership attention when fragmented payment, KYC, and reserve proofs cross the downside threshold.",
+      "boardQuestion": "Which lane should trigger capital reallocation because confidence is too fragmented?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "Payments, merchant review, KYC, and treasury surfaces exist, but the operating case is still split across too many partial proofs.",
+      "failureTrigger": "Deal teams cite merchant or treasury readiness without one consolidated diligence packet.",
+      "downsideTrigger": "Exception queues widen while management keeps positioning the lane as scale-ready.",
+      "interventionOwner": "Finance transformation lead",
+      "requiredEvidence": [
+        "chargeback exposure",
+        "KYC review aging",
+        "liquidity threshold breaches"
+      ],
+      "relatedSurfaces": [
+        "payments.kineticgain.com",
+        "merchant.kineticgain.com",
+        "treasury.kineticgain.com",
+        "kyc.kineticgain.com"
+      ],
+      "companyTags": [
+        "Stripe",
+        "Adyen",
+        "Plaid"
+      ],
+      "dependencyCoverageScore": 48,
+      "operatingDisciplineScore": 52,
+      "downsideContainmentScore": 43,
+      "cashExposureScore": 39,
+      "boardConfidenceScore": 46,
+      "valueAtStakeMillions": 31,
+      "headline": "FinTech should trigger reallocation before another scale narrative reaches investors.",
+      "narrative": "The right move is not more packaging. It is leadership reallocation into the broken thresholds that still separate payments, merchant risk, and KYC into fragmented narratives.",
+      "nextMove": "Reallocate committee attention to one integrated diligence threshold brief.",
+      "dependencyAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Dependency coverage is below threshold and should trigger immediate board-visible intervention."
+      },
+      "operatingAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Operating discipline is below threshold and should block the next growth expansion."
+      },
+      "downsideAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Downside containment is below threshold and the board should intervene before scale widens exposure."
+      },
+      "cashAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Cash exposure is below the accepted threshold and should trigger a capital conversation."
+      },
+      "confidenceAssessment": {
+        "severity": "BREACH",
+        "ok": false,
+        "message": "Board confidence is too weak to support the current growth claim."
+      },
+      "compositeRiskScore": 54.4
+    },
+    {
+      "id": "procurement-thresholds",
+      "lane": "Procurement, trust, and buyer proof",
+      "track": "PROCUREMENT",
+      "action": "ADVANCE",
+      "thresholdTheme": "Advance the buyer-proof lane while questionnaire cycle time and trust evidence remain inside threshold.",
+      "boardQuestion": "Which commercial infrastructure lane is strongest enough to accelerate now?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "The procurement surfaces are reusable, buyer-readable, and already organized into an answerable trust layer.",
+      "failureTrigger": "Questionnaire response time stretches beyond the committed buyer window.",
+      "downsideTrigger": "Trust assets drift out of date while the commercial team scales outreach.",
+      "interventionOwner": "Trust center owner",
+      "requiredEvidence": [
+        "questionnaire turnaround",
+        "trust-center evidence freshness",
+        "proof-gap tracker"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ],
+      "dependencyCoverageScore": 85,
+      "operatingDisciplineScore": 82,
+      "downsideContainmentScore": 80,
+      "cashExposureScore": 76,
+      "boardConfidenceScore": 83,
+      "valueAtStakeMillions": 16,
+      "headline": "Procurement is inside threshold and can safely support more enterprise demand.",
+      "narrative": "This is the cleanest commercial lane because the evidence room, answer studio, and proof monitoring already reduce buyer friction instead of creating more it.",
+      "nextMove": "Advance enterprise outreach while preserving evidence freshness and response SLA discipline.",
+      "dependencyAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Dependency coverage remains inside threshold for the current growth posture."
+      },
+      "operatingAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Operating discipline supports the current growth motion without forcing a pause."
+      },
+      "downsideAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Downside containment remains credible for the current board story."
+      },
+      "cashAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Cash exposure remains inside the current risk tolerance."
+      },
+      "confidenceAssessment": {
+        "severity": "WATCH",
+        "ok": true,
+        "message": "Board confidence is strong enough to support the current lane narrative."
+      },
+      "compositeRiskScore": 18.8
+    },
+    {
+      "id": "biotech-thresholds",
+      "lane": "Biotech and diagnostics control lanes",
+      "track": "BIOTECH",
+      "action": "HOLD",
+      "thresholdTheme": "Hold regulated growth claims until evidence continuity and review staffing prove they can absorb the next tranche.",
+      "boardQuestion": "Which regulated lane should stay visible but not yet expand?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "Assay, instrument, CAPA, specimen, and safety surfaces are live, but regulated-team continuity remains the gating factor.",
+      "failureTrigger": "Change control, chain of custody, or signal review packets go stale between audit cycles.",
+      "downsideTrigger": "More scope lands before review staffing and reuse patterns stabilize.",
+      "interventionOwner": "GxP program manager",
+      "requiredEvidence": [
+        "CAPA closure cadence",
+        "chain-of-custody audit trail",
+        "signal-review continuity"
+      ],
+      "relatedSurfaces": [
+        "assay.kineticgain.com",
+        "capa.kineticgain.com",
+        "specimen.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "companyTags": [
+        "LabVantage",
+        "Veeva",
+        "Thermo Fisher"
+      ],
+      "dependencyCoverageScore": 67,
+      "operatingDisciplineScore": 64,
+      "downsideContainmentScore": 60,
+      "cashExposureScore": 58,
+      "boardConfidenceScore": 62,
+      "valueAtStakeMillions": 22,
+      "headline": "Biotech should hold at the current footprint until review continuity is stronger.",
+      "narrative": "The vertical is real and buyer-legible, but leadership should not oversell scale until the regulated review system proves it can absorb more lanes cleanly.",
+      "nextMove": "Hold expansion and strengthen review continuity before marketing the next regulated tranche.",
+      "dependencyAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Dependency coverage is drifting toward threshold pressure and needs tighter board guardrails."
+      },
+      "operatingAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Operating discipline is under pressure and could undermine the next growth claim."
+      },
+      "downsideAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Downside containment is thinning and needs visible triggers before expansion continues."
+      },
+      "cashAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Cash exposure is rising toward a board-level watch threshold."
+      },
+      "confidenceAssessment": {
+        "severity": "PRESSURE",
+        "ok": false,
+        "message": "Board confidence is fragile and depends on a tighter threshold packet."
+      },
+      "compositeRiskScore": 37.8
+    }
+  ]
+}
