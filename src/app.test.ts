@@ -26,6 +26,20 @@ describe("board-growth-risk-thresholds app", () => {
     expect(response.status).toBe(200);
   });
 
+  it("serves verification and docs routes", async () => {
+    const verification = await request(app).get("/verification");
+    const docs = await request(app).get("/docs");
+
+    expect(verification.status).toBe(200);
+    expect(docs.status).toBe(200);
+    expect(docs.text).toContain("/api/payload");
+  });
+
+  it("returns 404 for unknown routes", async () => {
+    const response = await request(app).get("/missing-route");
+    expect(response.status).toBe(404);
+  });
+
   it("serves the payload API", async () => {
     const response = await request(app).get("/api/payload");
     expect(response.status).toBe(200);

@@ -102,6 +102,21 @@ function shell(title: string, path: string, body: string, description: string) {
       .metric-copy { margin-top: 10px; color: var(--muted); line-height: 1.5; }
       .section { margin-top: 24px; }
       .grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+      .depth-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin-top: 18px;
+      }
+      .depth-card {
+        background: rgba(16, 32, 50, 0.76);
+        border: 1px solid rgba(125, 196, 255, 0.12);
+        border-radius: 22px;
+        padding: 18px;
+      }
+      .depth-card h3 { margin: 10px 0; font-size: 24px; line-height: 1.1; }
+      .depth-card p { color: var(--muted); line-height: 1.6; }
+      .story { border-left: 4px solid var(--accent); }
       .card h3 { margin: 12px 0 10px; font-size: 30px; line-height: 1.05; }
       .card p, li { color: var(--muted); line-height: 1.6; }
       .table-wrap { overflow-x: auto; }
@@ -159,6 +174,36 @@ function navLinks(path: string) {
     .join("");
 }
 
+function productDepthSection() {
+  return `<section class="section story">
+      <span class="eyebrow">What this product does</span>
+      <h2>Growth-threshold intelligence for deciding when to advance, hold, intervene, or reallocate before downside compounds.</h2>
+      <p class="lede">This surface turns growth ambition into a board-readable guardrail packet: which lanes are still inside tolerance, which claims have breached, what evidence is required, who owns intervention, and where capital should slow down or move.</p>
+      <div class="depth-grid">
+        <article class="depth-card">
+          <div class="chip">GTM analyst lens</div>
+          <h3>Separate ambition from proof.</h3>
+          <p>Maps expansion claims to dependency, downside, and confidence thresholds so leadership can see when a growth story is still credible.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">SaaS value lens</div>
+          <h3>Protect investment pacing.</h3>
+          <p>Connects value at stake, intervention posture, and confidence gaps so the board can fund the right lane instead of multiplying downside exposure.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">Technical proof</div>
+          <h3>Make triggers auditable.</h3>
+          <p>Ships typed threshold, trigger, and intervention payloads with fixtures, smoke checks, and prerendered proof pages for reproducible review.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">Shared pattern</div>
+          <h3>What these repos have in common.</h3>
+          <p>Each Kinetic Gain surface turns complexity into owner, risk, evidence, decision, and next action instead of another generic dashboard.</p>
+        </article>
+      </div>
+    </section>`;
+}
+
 export function renderOverview() {
   const executiveSummary = summary();
   const lanes = thresholdLane().slice(0, 4);
@@ -194,6 +239,7 @@ export function renderOverview() {
         <div class="metric"><span class="metric-label">Value at stake</span><span class="metric-value">$${executiveSummary.valueAtStakeMillions}M</span><div class="metric-copy">Modeled exposure tied to getting threshold discipline wrong.</div></div>
       </div>
     </section>
+    ${productDepthSection()}
     <section class="section">
       <h2>Threshold lane</h2>
       <div class="grid">${cards}</div>
@@ -331,6 +377,7 @@ export function renderDocs() {
       <p class="lede">This surface packages board-readable growth guardrails into reproducible routes and JSON outputs.</p>
       <div class="nav">${navLinks("/docs")}</div>
     </section>
+    ${productDepthSection()}
     <section class="section">
       <ul>
         <li><code>/threshold-lane</code> keeps actions, threshold themes, and next moves readable.</li>
